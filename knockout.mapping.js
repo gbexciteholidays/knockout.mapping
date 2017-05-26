@@ -14,6 +14,7 @@
 }(function (ko, exports) {
 	var DEBUG=true;
 	var mappingProperty = "__ko_mapping__";
+	ko.dependentObservable = ko.computed;
 	var realKoDependentObservable = ko.dependentObservable;
 	var mappingNesting = 0;
 	var dependentObservables;
